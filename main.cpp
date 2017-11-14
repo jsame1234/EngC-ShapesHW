@@ -40,7 +40,7 @@ void genFacet(Vertex* A, Vertex* B, Vertex* C, ofstream& s, double size=1){
     s << "vertex " << bx << " " << by << " " << bz << '\n';
     s << "vertex " << cx << " " << cy << " " << cz << '\n';
     s<< "end loop\n";
-    s<<"end fact\n";
+    s<<"end facet\n";
 }
 
 
